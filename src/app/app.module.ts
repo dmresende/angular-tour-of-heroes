@@ -21,8 +21,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     FormsModule,
     AppRoutingModule
   ],
-  providers: [
-      ],
+
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }

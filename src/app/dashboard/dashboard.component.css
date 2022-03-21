@@ -1,4 +1,6 @@
-h2{
+/* DashboardComponent's private CSS styles */
+
+h2 {
   text-align: center;
 }
 
@@ -7,7 +9,7 @@ h2{
   margin: auto;
   max-width: 1000px;
 
-  /*FlexBox*/
+  /* flexbox */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -16,21 +18,21 @@ h2{
   align-items: flex-start;
 }
 
-a{
+a {
   background-color: #3f525c;
   border-radius: 2px;
   padding: 1rem;
   font-size: 1.2rem;
   text-decoration: none;
   display: inline-block;
-  color:#fff;
+  color: #fff;
   text-align: center;
   width: 100%;
   min-width: 70px;
   margin: .5rem auto;
   box-sizing: border-box;
 
-  /*flexbox*/
+  /* flexbox */
   order: 0;
   flex: 0 1 auto;
   align-self: auto;
